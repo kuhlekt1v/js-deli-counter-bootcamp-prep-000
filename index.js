@@ -27,5 +27,5 @@ function currentLine(line) {
     newLine.push(" "+ position + ". " + customer);
      });
   }
-  return "The line is currently: " + newLine
+  return "The line is currently: " + newLine;
 }
