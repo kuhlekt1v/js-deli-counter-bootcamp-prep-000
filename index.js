@@ -5,3 +5,10 @@ function takeANumber(line, name){
 } 
 
 function nowServing(line){
+  if (i === 0) {
+    return "There is nobody waiting to be served!";
+  }
+  else {
+    
+  }
+}
