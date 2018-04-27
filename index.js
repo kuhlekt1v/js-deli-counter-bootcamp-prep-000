@@ -23,5 +23,5 @@ function currentLine(line) {
   else {
     var newLine = [];
   }
-  return "The line is currently: " + line;
+  return "The line is currently: " + [i]line;
 }
