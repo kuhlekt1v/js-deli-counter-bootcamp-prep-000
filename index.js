@@ -6,7 +6,7 @@ function takeANumber(line, name){
 
 function nowServing(line){
   if (line === 0) {
-    return "There is nobody waiting to be served!";
+    return "There is nobody waiting to be served!"
   }
   else {
     //access index 0 in line array and remove them.
