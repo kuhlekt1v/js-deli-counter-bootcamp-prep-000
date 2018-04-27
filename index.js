@@ -13,5 +13,5 @@ function nowServing(line){
     var person = line[0]
     line.shift()
   }
-  return "Currently serving " + person + "."
+  return "Currently serving " + person + ".";
 }
