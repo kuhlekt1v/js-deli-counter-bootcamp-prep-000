@@ -9,6 +9,6 @@ function nowServing(line){
     return "There is nobody waiting to be served!";
   }
   else {
-    
+    var person = line[0]
   }
 }
