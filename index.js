@@ -15,3 +15,9 @@ function nowServing(line){
   }
   return "Currently serving " + person + ".";
 }
+
+function currentLine(line) {
+  if (line.length === 0) {
+    return "The Line is currently empty.";
+  }
+}
