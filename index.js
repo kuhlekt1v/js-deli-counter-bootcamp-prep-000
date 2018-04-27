@@ -13,4 +13,5 @@ function nowServing(line){
     var person = line[0]
     line.shift()
   }
+  return 
 }
