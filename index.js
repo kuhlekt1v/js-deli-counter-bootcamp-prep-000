@@ -9,7 +9,8 @@ function nowServing(line){
     return "There is nobody waiting to be served!";
   }
   else {
+    //access index 0 in line array and remove them.
     var person = line[0]
-    line.shift
+    line.shift()
   }
 }
