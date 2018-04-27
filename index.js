@@ -22,6 +22,10 @@ function currentLine(line) {
   }
   else {
     var newLine = [];
+    line.forEach(function(customer, index) {
+    //   var position = index + 1;
+    //   newLine.push(" "+ position + ". " + customer);
+    // });
   }
   return "The line is currently: " + [i]line;
 }
